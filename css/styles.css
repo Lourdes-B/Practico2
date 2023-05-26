@@ -1,6 +1,6 @@
 body{
     font-family: 'Orbitron', sans-serif;
-    background-color: #4A525A;
+    background-color: white;
 }
 
 .calcular{
@@ -12,6 +12,7 @@ body{
     padding: 30px;
     border: 1px solid black;
     border-radius: 4px;
+    background-color: rgb(40, 40, 40);
 }
 
 .display {
@@ -35,4 +36,24 @@ body{
 .calcular .boton:hover{
     background-color: white;
     cursor: pointer;
+}
+
+.calcular .boton.borrar{
+    background-color: blue;
+    height: 40px;
+
+}
+
+.calcular .boton.borrar:hover{
+    background-color: red;
+}
+
+.calcular .boton.operador{
+    background-color: rgb(28, 26, 26);
+    color:white;
+
+}
+
+.calcular .boton.operador:hover{
+    background-color: rgb(101, 77, 77);
 }
