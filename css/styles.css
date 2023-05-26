@@ -1,0 +1,38 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #4A525A;
+}
+
+.calcular{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.display {
+    grid-column: 1 / span 4;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.calcular .boton{
+
+    background-color: grey;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    border: 3px solid #eaeaea;
+    border-radius: 4px;
+}
+
+.calcular .boton:hover{
+    background-color: white;
+    cursor: pointer;
+}
